@@ -2,16 +2,16 @@
   <id>com.tgcity.plugin.id.mvp</id>
   <name>TGCityMVP</name>
   <version>1.0</version>
-  <vendor email="tgcity@hotmail.com" url="https://github.com/tgcityPlum/Comprehensive">TGCity</vendor>
+  <vendor email="tgcity@hotmail.com" url="https://github.com/tgcityPlum/MVPPlugin.git">TGCity</vendor>
 
   <description><![CDATA[
       MVP的插件.<br>
-      <em>https://github.com/tgcityPlum/Comprehensive</em>
+      <em>https://github.com/tgcityPlum/MVPPlugin.git</em>
     ]]></description>
 
   <change-notes><![CDATA[
       初始创建项目.<br>
-      <em>https://github.com/tgcityPlum/Comprehensive</em>
+      <em>https://github.com/tgcityPlum/MVPPlugin.git</em>
     ]]>
   </change-notes>
 

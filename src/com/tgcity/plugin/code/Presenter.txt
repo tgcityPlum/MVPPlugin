@@ -1,0 +1,11 @@
+package &package&;
+
+import com.tgcity.profession.mvp.present.BasePresenterImpl;
+
+/**
+ * @author Administrator
+ */
+
+public class &Presenter& extends BasePresenterImpl<&Contract&.View> implements &Contract&.Presenter{
+    
+}

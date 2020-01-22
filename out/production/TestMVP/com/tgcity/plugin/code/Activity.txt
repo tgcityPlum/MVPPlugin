@@ -1,0 +1,11 @@
+package &package&;
+
+import com.tgcity.profession.mvp.view.activity.BaseMVPActivity;
+
+/**
+ * @author Administrator
+ */
+
+public class &Activity& extends BaseMVPActivity<&Contract&.View, &Presenter&> implements &Contract&.View {
+
+}

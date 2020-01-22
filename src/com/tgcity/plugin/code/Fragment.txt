@@ -1,0 +1,11 @@
+package &package&;
+
+import com.tgcity.profession.mvp.view.fragment.BaseMVPFragment;
+
+/**
+ * @author Administrator
+ */
+
+public class &Fragment& extends BaseMVPFragment<&Contract&.View, &Presenter&> implements &Contract&.View {
+
+}

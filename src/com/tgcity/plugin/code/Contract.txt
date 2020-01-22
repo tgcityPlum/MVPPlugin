@@ -1,0 +1,18 @@
+package &package&;
+
+import com.tgcity.profession.mvp.present.BasePresenter;
+import com.tgcity.profession.mvp.view.BaseView;
+
+/**
+ * @author Administrator
+ */
+
+public class &Contract& {
+    interface View extends BaseView {
+        
+    }
+
+    interface  Presenter extends BasePresenter<View> {
+        
+    }
+}

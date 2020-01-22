@@ -1,28 +1,21 @@
 <idea-plugin>
-  <id>com.tgcity.mvp.plugin.id</id>
-  <name>TGCItyMVP</name>
+  <id>com.tgcity.plugin.id.mvp</id>
+  <name>TGCityMVP</name>
   <version>1.0</version>
-  <vendor email="tgcity@hotmail.com" url="https://github.com/tgcityPlum/Comprehensive">TGCity</vendor>
+  <vendor email="tgcity@hotmail.com" url="https://github.com/tgcityPlum/MVPPlugin.git">TGCity</vendor>
 
   <description><![CDATA[
       MVP的插件.<br>
-      <em>https://github.com/tgcityPlum/Comprehensive</em>
+      <em>https://github.com/tgcityPlum/MVPPlugin.git</em>
     ]]></description>
 
   <change-notes><![CDATA[
       初始创建项目.<br>
-      <em>https://github.com/tgcityPlum/Comprehensive</em>
+      <em>https://github.com/tgcityPlum/MVPPlugin.git</em>
     ]]>
   </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="173.0"/>
-
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
@@ -30,7 +23,7 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="com.tgcity.mvp" class="com.tgcity.plugin.MVPAction" text="MVPAction">
+    <action id="com.tgcity.mvp" class="com.tgcity.plugin.MVPAction" text="MVPAction" icon="/icon.png">
       <add-to-group group-id="NewGroup" anchor="first"/>
     </action>
   </actions>
